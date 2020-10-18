@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuriydmitriev/CLionProjects/untitled2/ProcessUtils.h
+semaphore.h
+/home/yuriydmitriev/CLionProjects/untitled2/semaphore.h
+sys/socket.h
+/home/yuriydmitriev/CLionProjects/untitled2/sys/socket.h
+netinet/in.h
+/home/yuriydmitriev/CLionProjects/untitled2/netinet/in.h
+fcntl.h
+-
+functional
+/home/yuriydmitriev/CLionProjects/untitled2/functional
+
+/home/yuriydmitriev/CLionProjects/untitled2/main.cpp
+iostream
+-
+unistd.h
+-
+ProcessUtils.h
+/home/yuriydmitriev/CLionProjects/untitled2/ProcessUtils.h
+pthread.h
+-
+fcntl.h
+-
+semaphore.h
+-
+cstring
+-
+unistd.h
+-
+signal.h
+-
+sys/types.h
+-
+
