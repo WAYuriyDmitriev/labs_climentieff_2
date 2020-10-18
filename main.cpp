@@ -36,8 +36,7 @@ int main() {
     sem_unlink(SEM_POW2.c_str());
     sem_unlink(SEM_PLUS.c_str());
 
-    auto el = sem_plus = sem_open(SEM_PLUS.c_str(), O_CREAT, SEMAPHORE_MODE, 0);
-    std::cout << el;
+    sem_plus = sem_open(SEM_PLUS.c_str(), O_CREAT, SEMAPHORE_MODE, 0);
     sem_sqrt = sem_open(SEM_SQRT.c_str(), O_CREAT, SEMAPHORE_MODE, 0);
     sem_pow2 = sem_open(SEM_POW2.c_str(), O_CREAT, SEMAPHORE_MODE, 0);
 
